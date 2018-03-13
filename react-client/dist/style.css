@@ -302,10 +302,11 @@ border-bottom-left-radius: 25px;
 
 #lettersWithIn{
   color: black;
+  background-color: ;
 }
 #picPro{
   width: 280px;
 }
-#picPro{
-  backgroundColor: 'transparent';
+#picPro2{
+  backgroundColor: wine;
 }

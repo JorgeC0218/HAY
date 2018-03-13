@@ -46,11 +46,11 @@ export default class Profile extends React.Component {
                   <div className="Nicolas-Card" style={{
                       width: "18rem"
                     }}>
-                    <img id="picPro" className="card-img-top-Nicolas" src={`https://i.imgur.com/${this.state.profile.picture_path}.jpg`}/>
+                    <img id="picPro" src={`https://i.imgur.com/${this.state.profile.picture_path}.jpg`}/>
                     <div id="lettersWithIn" className="card-body">
                       <h4 className="card-title">{`${this.state.profile.first_name} ${this.state.profile.last_name}`}</h4>
                       <h6>Mentor</h6>
-                      <p className="card-text">{"View GitHub Profile: " + `https://github.com/${this.state.profile.github_link}`}</p>
+                      <p id="picPro2" className="card-text">{"View GitHub Profile: " + `https://github.com/${this.state.profile.github_link}`}</p>
                     </div>
                   </div>
                 </div>
